@@ -1,0 +1,34 @@
+/* 1.General */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #062489;
+    font-family: 'Montserrat',sans-serif;
+    overflow-x: hidden;
+    color: #cbe5ff !important;
+}
+ul li a, a{
+    color: #fff!important;
+    font-size: 14px;    
+}
+/* 2.navbar style */
+.main-btn{
+    background: -webkit-linear-gradient(left, #fa768d, #fe998b);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.main-btn:hover{
+    background: -webkit-linear-gradient(left, #fa768d, #062489);
+}
+/* Home Page */
+.row{
+    position: absolute;
+}
+.h-btn{
+    padding: 12px 15px;
+    margin-top: 12px;
+    margin-right: 6px;
+}
